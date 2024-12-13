@@ -1,0 +1,25 @@
+name: Update Submodules
+
+on:
+  workflow_dispatch: # Only allow manual triggering
+
+jobs:
+  update-submodules:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository and submodules
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: recursive
+
+      # Update all submodules to their latest commit
+      - name: Update Submodules
+        run: |
+          git submodule update --remote --merge
+          git add .
+          git status
+
+      # Commit and push the updated submodules
+      - uses: stefanzweifel/git-auto-commit-action@v5
