@@ -39,13 +39,6 @@ jobs:
         with:
           node-version: 18
 
-      - name: Link
-        run: |
-          cd ./scratch-vm
-          npm link
-          cd ..
-          npm link scratch-vm
-
       - name: Install
         run: npm install
 
