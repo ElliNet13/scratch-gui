@@ -4,10 +4,10 @@
   "description": "Graphical User Interface for creating and running Scratch 3.0 projects",
   "author": "Massachusetts Institute of Technology",
   "license": "GPL-3.0",
-  "homepage": "https://github.com/LLK/scratch-gui#readme",
+  "homepage": "https://github.com/ElliNet13/scratch-gui#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LLK/scratch-gui.git"
+    "url": "https://github.com/ElliNet13/scratch-gui.git"
   },
   "main": "./dist/scratch-gui.js",
   "scripts": {
@@ -33,11 +33,11 @@
   },
   "dependencies": {
     "@microbit/microbit-universal-hex": "0.2.2",
-    "@ElliNet13/nanolog": "^0.2.0",
-    "@ElliNet13/scratch-l10n": "^3.1001.0-202401241456-994097a5",
-    "@ElliNet13/scratch-storage": "^0.0.202403251715",
-    "@ElliNet13/scratch-svg-renderer": "^1.0.0-202312242305-12c360b",
-    "@ElliNet13/startaudiocontext": "^1.0.0",
+    "@turbowarp/nanolog": "^0.2.0",
+    "@turbowarp/scratch-l10n": "^3.1001.0-202401241456-994097a5",
+    "@turbowarp/scratch-storage": "^0.0.202403251715",
+    "@turbowarp/scratch-svg-renderer": "^1.0.0-202312242305-12c360b",
+    "@turbowarp/startaudiocontext": "^1.0.0",
     "arraybuffer-loader": "^1.0.6",
     "autoprefixer": "^9.0.1",
     "balance-text": "3.3.1",
