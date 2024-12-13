@@ -34,7 +34,7 @@ jobs:
         with:
           submodules: recursive
 
-      - name: Setup Node.js v16
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
           node-version: 18
